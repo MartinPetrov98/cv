@@ -1,5 +1,5 @@
 
-var percent = 200  ;
+var px = 200  ;
 $(document).ready(function ()
 {
 
@@ -12,7 +12,7 @@ $(document).ready(function ()
        $(this).next().show().css({
 
             "position" : "absolute",
-            "margin-top" : (currentPositionOfElement - percent)
+            "margin-top" : (currentPositionOfElement - px)
 
        });
        // alert($(this).offset().top);
